@@ -78,9 +78,15 @@ public class MyTest {
         while (fr.read(cbuff) != -1) {
             String s = String.valueOf(cbuff);
             //for (int i = 0; i < 16; i++) {
-                System.out.println(s);
+            System.out.println(s);
             //}
         }
         fr.close();
+    }
+
+    @Test
+    public void test5() {
+        int[] arr = ArrUtil.getRandomArr(20, 20);
+        ArrUtil.showArr(arr);
     }
 }

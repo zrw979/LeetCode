@@ -33,7 +33,7 @@ public class ArrUtil {
     }
 
     /**
-     * 获取长度为len,元素值为0~x-1的随机整数数组
+     * 获取长度为len,元素值为1~x的随机整数数组
      */
     public static int[] getRandomArr(int len,int x){
         int[] arr = new int[len];
